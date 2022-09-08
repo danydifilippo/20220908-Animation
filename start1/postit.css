@@ -1,0 +1,65 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+}
+
+#container {
+    display: grid;
+    font-family: 'Indie Flower', cursive;
+    gap: 50px;
+    margin: 5em;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+}
+
+.postit {
+    width: 20em;
+    height: 11em;
+    text-align: center;
+    padding-top: 4em;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+p {
+    font-size: 2em;
+    padding: 0.4em;
+
+}
+
+h2 {
+    font-size: 3.1em;
+    font-weight: bold;
+}
+
+#task1, #task5, #task7 {
+    background: linear-gradient(0, #bebda2,  #e8e8b1);
+    transform: rotate(-6deg);
+}
+
+#task2, #task8 {
+    background: linear-gradient(0, #a1b8a2,  #bde6c1);
+    transform: rotate(7deg);
+}
+
+#task3, #task6 {
+    background: linear-gradient(0, #a4a3bb,  #c8c8f8);
+    transform: rotate(-8deg);
+}
+
+#task4 {
+    background: linear-gradient(0, #a1b8a2,  #bde6c1);
+    transform: rotate(12deg);
+}
+
+.postit:hover {
+    width: 25em;
+    height: 15em;
+}
+
+#container div:hover {
+    transform: rotate(0deg);
+}
+
+
+
