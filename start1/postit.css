@@ -19,6 +19,7 @@ body {
     text-align: center;
     padding-top: 4em;
     transition: scale 2s, transform 2s;
+    box-shadow: 10px 10px 20px black;
 }
 
 p {
@@ -52,10 +53,13 @@ h2 {
     transform: rotate(12deg);
 }
 
+@media screen and (min-width: 1200px) {
+
 #container div:hover {
     transform: rotate(0deg) scale(1.2);
     z-index: 10;
 }
-
+    
+}
 
 

@@ -8,3 +8,21 @@
 7 ritardare progressivamente l'animazione delle altre 2 parole 
 */
 
+main {
+    font-family: 'Bree Serif', serif;
+    font-size: 3em;
+}
+
+.parole {
+    animation-name: change;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+span i {
+    line-height: 40px;
+    margin: 0;
+}
+
+
+
